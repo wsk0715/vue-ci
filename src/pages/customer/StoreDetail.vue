@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gray-100">
+  <div class="bg-gray-100">
     <main class="max-w-6xl mx-auto p-4 pb-20">Hello Store Id: {{ storeId }}</main>
   </div>
 </template>
