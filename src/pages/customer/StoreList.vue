@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gray-100">
+  <div class="bg-gray-100">
     <main class="max-w-6xl mx-auto p-4">
       <section>
         <h2 class="mb-4 text-gray-800 text-2xl font-bold">음식점 목록</h2>
