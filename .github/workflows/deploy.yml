@@ -38,3 +38,9 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: ap-northeast-2
+
+      - name: Configure S3 for SPA
+        run: |
+          aws s3 website s3://${{ secrets.AWS_S3_BUCKET }} \
+            --index-document index.html \
+            --error-document index.html
